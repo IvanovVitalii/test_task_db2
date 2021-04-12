@@ -8,7 +8,7 @@ Messages need to be saved to the database.
 - [x] Django, Django REST Framework, PostgreSQL
 - [x] The message must contain author(unauthenticated user) email and text, create date and update date.
 - [x] Email validation (regex to check if that is real email)
-- [ ] Message validation (regex to check if message is not empty string, and length < 100)
+- [x] Message validation (regex to check if message is not empty string, and length < 100)
 
 ## API methods:
 
@@ -23,7 +23,7 @@ e.g.
 - [x] POST method for creating a new message
 Body accepts email and text.
 - [ ] Add request validators
-- [ ] API documentation(preferably with sandbox for sending requests, e.g. Swagger)
+- [x] API documentation(preferably with sandbox for sending requests, e.g. Swagger)
 - [ ] Deploy to Heroku
 
 ## Advanced requirements:
